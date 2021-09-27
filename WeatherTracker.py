@@ -6,6 +6,8 @@ from time import sleep
 s2py = Scratch2Py('_tate', *PASSWORD*)
 
 cloudproject = s2py.scratchConnect('574764513')
+
+#Cloud Connection testing
 cloudproject.setCloudVar('CloudVar', 12)
 
 while True:
